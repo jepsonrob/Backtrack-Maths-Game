@@ -63,7 +63,7 @@ def open():
     if v == 'yes' or v == 'y' or v == 'Y':
         runGame()
     else:
-        print "Naa, you're not worth my time. Just say yes, dickhead."
+        print "... just say yes ..."
         
 open()
     
