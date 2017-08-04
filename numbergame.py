@@ -31,11 +31,14 @@ def chooser(a, b):
         
 
 def runGame():
+    print "Welcome to Backtrack!\n"
     x = float(raw_input("Please enter an integer: "))
     y = float(raw_input("Please enter another integer: "))
     z = float(raw_input("Please enter the last integer: "))
     if x == 0 or y == 0 or z == 0:
-        print "I told you not to use 0, you son of a bitch."
+        print "I told you not to use 0! You ruined everything!"
+        print "..."
+        print "bye"
         quit()
     #first operation
     firstNum = chooser(x, y)
